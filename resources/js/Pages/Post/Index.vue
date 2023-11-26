@@ -12,9 +12,7 @@ import {Head, Link, router} from "@inertiajs/vue3";
 </script>
 
 <template>
-    <Head>
-        <title>Posts</title>
-    </Head>
+    <Head title="Posts" />
     <div>
         <Link href="/post/create" class="btn btn-success">Create</Link>
     </div>

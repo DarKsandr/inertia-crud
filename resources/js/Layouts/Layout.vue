@@ -1,9 +1,10 @@
 <script setup>
-import { Link } from '@inertiajs/vue3'
+import { Link, Head } from '@inertiajs/vue3'
 
 </script>
 
 <template>
+    <Head title="Laravel" />
     <header>
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">

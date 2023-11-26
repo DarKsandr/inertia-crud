@@ -31,9 +31,7 @@ import {Head, Link, useForm} from "@inertiajs/vue3";
 </script>
 
 <template>
-    <Head>
-        <title>{{title}}</title>
-    </Head>
+    <Head :title="title" />
     <div>
         <h3 class="text-center">{{title}}</h3>
         <form @submit.prevent="form.submit(method, url)">
